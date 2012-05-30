@@ -2,7 +2,7 @@
 $:.push File.expand_path('../lib', __FILE__)
 require "acts_as_init/version"
 
-s::Specification.new do |s|
+Gem::Specification.new do |s|
   s.name          = "acts_as_init"
   s.version       = ActsAsInit::VERSION
   s.platform      = Gem::Platform::RUBY
