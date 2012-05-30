@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.platform      = Gem::Platform::RUBY
   s.authors       = ["Konstantin Kosmatov"]
   s.email         = ["key@kosmatov.su"]
-  s.description   = %q{TODO: Write a s description}
-  s.summary       = %q{TODO: Write a s summary}
+  s.description   = "Call method init_new on new object after initialization"
+  s.summary       = "Call method init_new"
   s.homepage      = "http://github.com/kosmatov/acts_as_init"
 
   s.rubyforge_project = "acts_as_init"
