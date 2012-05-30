@@ -1,19 +1,18 @@
 require "acts_as_init/version"
 
 module ActsAsInit
-  after_initialize :init
+  after_initialize do
 
-  def init
-    if id.nil?
-      init_new
+    if new_record?
+      init
     end
   end
 
   private
 
-  def init_new
+  def init
 
   end
 end
 
-ActiveRecord::Base.extend(ActsAsInit)
+ActiveRecord::Base.include(ActsAsInit)
