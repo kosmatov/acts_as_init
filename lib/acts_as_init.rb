@@ -1,8 +1,7 @@
 require "acts_as_init/version"
 
-module ActsAsInit
+ActiveRecord::Base.class_eval do
   after_initialize do
-
     if new_record?
       init
     end
@@ -11,8 +10,5 @@ module ActsAsInit
   private
 
   def init
-
   end
 end
-
-ActiveRecord::Base.include(ActsAsInit)
