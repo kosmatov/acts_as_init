@@ -1,24 +1,20 @@
 # ActsAsInit
 
-TODO: Write a gem description
+Gem call method 'init' on new AR model
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'acts_as_init'
+    gem 'acts_as_init', :git => 'git://github.com/kosmatov/acts_as_init.git'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install acts_as_init
-
 ## Usage
 
-TODO: Write usage instructions here
+Define method 'init' in your model.
 
 ## Contributing
 
